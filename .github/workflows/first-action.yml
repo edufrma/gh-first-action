@@ -5,7 +5,9 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "E aí?"
+      - name: Print greetings
+        run: | 
+          echo "E aí?"
+          echo "Oi de novo!"
       - name: Print goodbye
         run: echo "Falou!"
